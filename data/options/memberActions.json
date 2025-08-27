@@ -1,0 +1,64 @@
+[
+    {
+      "id":"reservation",
+      "name": "預約",
+      "textStyle":"btn-reserve-text",
+      "icon": "reserve", 
+      "buttons": [
+        {
+          "actionText": "立即預約",
+          "className":"btn-reserve-action",
+          "route":"/member/appointment"
+        },
+        {
+          "recordText": "預約紀錄",
+          "className":"btn-reserve-record",
+          "route":"/member/record?record=reservation"
+        }
+      ],
+      "last_action": {
+        "text": "最近預約",
+        "date": "2024-07-20 12:26"
+      }
+    },
+    {
+      "id":"coin",
+      "name": "儲值",
+      "textStyle":"btn-recharge-text",
+      "icon": "recharge",
+      "buttons": [
+        {
+          "actionText": "立即儲值",
+          "className":"btn-recharge-action",
+          "route":"/member/recharge"
+        },
+        {
+          "recordText": "儲值紀錄",
+          "className":"btn-recharge-record",
+          "route":"/member/record?record=recharge"
+        }
+      ],
+      "last_action": {
+        "text": "最近儲值",
+        "date": "2024-07-20 12:26"
+      }
+    },
+    {
+      "id":"sale",
+      "name": "消費",
+      "textStyle":"btn-shopping-text",
+      "icon": "shopping",
+      "buttons": [
+        {
+          "recordText": "消費紀錄",
+          "className":"btn-shopping-record",
+          "route":"/member/record?record=expense"
+        }
+      ],
+      "last_action": {
+        "text": "最近消費",
+        "date": "2024-07-20 12:26"
+      }
+    }
+  ]
+  

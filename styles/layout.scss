@@ -1,0 +1,53 @@
+.footer-background{
+    background-image: url("../public/image/footer.png");
+    min-height:100vh;
+    background-repeat: no-repeat; /* 取消圖片的重複 */
+    background-size: 100% auto; /* 確保圖片覆蓋整個元素 */
+    background-position: bottom; /* 圖片在元素內居中 */
+    position: relative;
+
+    @media (min-width: 451px) {
+      background-image: none;
+    }
+  
+    .footer-copyright{
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      right:0px
+    }
+  }
+
+  header{
+    background: linear-gradient(90deg, #094 0%, #005425 100%);
+  }
+
+  .member-footer{
+    background-image: url("../public/image/footer.png");
+    background-repeat: no-repeat; /* 取消圖片的重複 */
+    background-size: cover; /* 確保圖片覆蓋整個元素 */
+    background-position: center; /* 圖片在元素內居中 */
+    position: relative;
+    min-height:500px;
+
+    .footer-copyright{
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      right:0px;
+    }
+  }
+
+  .main-content-wrapper{
+    min-height: 93vh;
+    position:relative;
+    padding: 0 20px;
+
+    .btn-bottom{
+      position: absolute;
+      bottom:20px;
+      left: 50%;
+  transform: translateX(-50%);
+  width:90%
+    }
+  }

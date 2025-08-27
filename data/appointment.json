@@ -1,0 +1,24 @@
+[
+    {
+      "date": "2024/06/23",
+      "serviceItem": "洗髮",
+      "expenseAmount": "$299",
+      "remainingAmount": "$700",
+      "note": "--"
+    },
+    {
+      "date": "2024/06/23",
+      "serviceItem": "洗髮",
+      "expenseAmount": "$299",
+      "remainingAmount": "$700",
+      "note": "若需要取消或更改預約，請提前一天通知，以免影響其他客人的安排。"
+    },
+    {
+      "date": "2024/06/23",
+      "serviceItem": "洗髮",
+      "expenseAmount": "$299",
+      "remainingAmount": "$700",
+      "note": "若需要取消或更改預約，請提前一天通知，以免影響其他客人的安排。"
+    }
+  ]
+  

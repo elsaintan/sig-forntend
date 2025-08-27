@@ -1,0 +1,10 @@
+
+.btn {
+    background-color: transparent; /* 確保背景色為透明 */
+  }
+  
+
+  .btn-outline-success:focus,.btn-outline-success:active,.btn-outline-success:hover{
+    background-color: white !important;
+    border:none !important
+}

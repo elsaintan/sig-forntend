@@ -1,0 +1,15 @@
+[
+  {
+    "key": "appointment",
+    "value": "預約紀錄"
+  },
+  {
+    "key": "expense",
+    "value": "消費紀錄"
+  },
+
+  {
+    "key": "recharge",
+    "value": "儲值紀錄"
+  }
+]

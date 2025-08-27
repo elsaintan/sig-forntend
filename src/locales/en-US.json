@@ -1,0 +1,6 @@
+{
+    "system_error":"System Error",
+    "system_error_msg":"Server internal error, please try again later!",
+    "send_success":"Send Success",
+    "send_success_msg":"Verification code has been sent to "
+}

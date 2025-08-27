@@ -1,0 +1,167 @@
+.btn-reserve {
+    &-text {
+        color: #00B49E;
+        font-weight: 700;
+    }
+
+    &-action {
+        background: #00B49E;
+        border: 1px solid #00B49E;
+        width: 110px;
+
+        &:hover {
+            background: #00B49E !important;
+            color: white;
+            border: 1px solid #00B49E !important;
+        }
+
+        &:active {
+            color: #00B49E !important;
+            background-color: white !important;
+            border: 1px solid #00B49E !important;
+        }
+
+        &:focus {
+            color: #00B49E;
+            background-color: white !important;
+            border: 1px solid #00B49E !important;
+        }
+    }
+
+    &-record {
+        color: #00B49E;
+        background: white;
+        border: 1px solid #00B49E;
+        width: 110px;
+
+        &:hover {
+            background: white !important;
+            color: #00B49E;
+            border: 1px solid white !important;
+        }
+
+        &:active {
+            color: white !important;
+            background-color: #00B49E !important;
+            border: 1px solid white !important;
+        }
+
+        &:focus {
+            color: white;
+            background-color: #00B49E !important;
+            border: 1px solid white !important;
+        }
+    }
+}
+
+
+.btn-recharge{
+    &-text{
+        color:#2EA5D7;
+        font-weight: 700;
+    }
+    &-action{
+        background: #2EA5D7;
+        border:1px solid #2EA5D7;
+        width:110px;
+
+        &:hover {
+            background: #2EA5D7 !important;
+            color: white;
+            border: 1px solid #2EA5D7 !important;
+        }
+
+        &:active {
+            color: #2EA5D7 !important;
+            background-color: white !important;
+            border: 1px solid #2EA5D7 !important;
+        }
+
+        &:focus {
+            color: #2EA5D7;
+            background-color: white !important;
+            border: 1px solid #2EA5D7 !important;
+        }
+    }
+
+    &-record{
+        color:#2EA5D7;
+        background: white;
+        border:1px solid #2EA5D7;
+        width:110px;
+        
+
+        &:hover {
+            background: white !important;
+            color: #2EA5D7;
+            border: 1px solid white !important;
+        }
+
+        &:active {
+            color: white !important;
+            background-color: #2EA5D7 !important;
+            border: 1px solid white !important;
+        }
+
+        &:focus {
+            color: white;
+            background-color: #2EA5D7 !important;
+            border: 1px solid white !important;
+        }
+    }
+}
+
+.btn-shopping{
+    &-text{
+        color:#F7B101;
+        font-weight: 700;
+    }
+    &-record{color:#F7B101;
+        background: white;
+        border:1px solid #F7B101;
+        width:110px;
+    
+        &:hover {
+            background: white !important;
+            color: #F7B101;
+            border: 1px solid white !important;
+        }
+
+        &:active {
+            color: white !important;
+            background-color: #F7B101 !important;
+            border: 1px solid white !important;
+        }
+
+        &:focus {
+            color: white;
+            background-color: #F7B101 !important;
+            border: 1px solid white !important;
+        }
+    
+    
+    }
+}
+
+
+.btn-record-nav{
+    background-color: transparent;
+    border:none;
+    color:#BBBBBB;
+    // width:100%;
+    border-radius: 10px;
+    height: 45px;
+    padding: 0px 20px;
+    font-size: 16px;
+
+    &-active{
+        background-color: #03813B;
+        color:white;
+        // width:100%;
+        border:none;
+        border-radius: 10px;
+        height: 45px;
+        padding: 0px 20px;
+        font-size: 16px;
+    }
+}
